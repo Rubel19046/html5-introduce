@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        label{
+            display: block;
+           margin-bottom: 10px;
+        }
+        h2{
+            text-align: center;
+           
+        }
+    </style>
+</head>
+<body>
+    <h2>Google form</h2>
+    <form action="">
+        <label for="name">Your Name</label>
+    <input id="name" type="text" placeholder="Your Name">
+        <label for="Phone number">Your Phone number</label>
+    <input id="Phone number" type="number" placeholder="Your Phone number">
+        <label for="email">Your email</label>
+    <input id="email" type="text" placeholder="Your email">
+        <label for="pass">Your password</label>
+    <input id="pass" type="password" placeholder="password">
+    <fieldset>
+        <legend>Click your department</legend>
+       <label for="Science">
+        <input type="radio" name="department" id="Science">Science
+       </label>
+      
+    
+       <label for="Arts">
+        <input type="radio" name="department" id="Arts">Arts
+       </label>
+       
+
+       <label for="Commers">
+        <input type="radio" name="department" id="Commers">Commers
+       </label>
+       
+    </fieldset>
+    <fieldset>
+        <legend>Choice Your Science Subject</legend>
+        <label for="Math">
+            <input type="checkbox" name="Science" id="Math">Math
+        </label>
+        <label for="Physics">
+            <input type="checkbox" name="Science" id="Physics">Physics
+        </label>
+        <label for="Chemisty">
+            <input type="checkbox" name="Science" id="Chemisty">Chemisty
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Choice Your Arts Subject</legend>
+        <label for="English">
+            <input type="checkbox" name="Arts" id="English">English
+        </label>
+        <label for="Economics">
+            <input type="checkbox" name="Arts" id="Economics">Economics
+        </label>
+        <label for="Bangla">
+            <input type="checkbox" name="Arts" id="Bangla">Bangla
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>instructions</legend>
+        <textarea name="" id="" cols="70" rows="5"></textarea>
+    </fieldset>
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+    </form>
+</body>
+</html>
